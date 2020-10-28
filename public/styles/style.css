@@ -8,14 +8,22 @@
 
 body {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
+h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
 img {
-    width: 5em;
+    margin: 1em;
+    width: 10em;
 }
 
 a {
-    clear: left;
+    padding: 1em;
     text-decoration: none;
+    font-size: 2em;
 }
